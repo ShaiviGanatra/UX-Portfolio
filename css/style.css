@@ -336,11 +336,19 @@ height: auto;
       color: white;
     }
     .flip-card-front {
-      background-color: #FF7779;
+      background-color: #800000;
     }
     .flip-card-back {
       background-color: #F8E5B7;
       transform: rotateY(180deg);
+    }
+
+    .flip-card-back a{
+        color: #000000;
+    }
+
+    .flip-card-back a:hover{
+        color: #000000;
     }
 
     .flip-card{
