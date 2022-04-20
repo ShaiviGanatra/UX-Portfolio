@@ -64,6 +64,16 @@ height: auto;
     height: 100vh;
 }
 
+/* NAV */
+
+.nav-item:hover {
+    border-top: solid 2px #FFFFFF;
+  }
+.nav-item .active {
+    border-top: solid 2px #FFFFFF;
+  }
+
+
 /* HOME BACKGROUND */
   
   .home-bg {
