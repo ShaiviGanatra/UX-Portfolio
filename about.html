@@ -49,20 +49,20 @@
         <h1>I am a Techie turned Designer!</h1>
 		<hr>
 		<div class="container">
-            <div class="min-container">
+            <div class="min-container-flex">
                 <p>
                     I am a Graduate Student and a Research Assistant studying Human Computer Interaction at University of Michigan, Ann Arbor.
                     "I believe that curiosity and desire are the keys to gain insights in life."
                     Curiosity towards connection of art, technology, creativity and desire to implement those thoughts into reality drives me each morning to grow more.
                 </p>
             </div>
-            <div class="min-container about">
+            <div class="min-container-flex about">
                 <img src="images/knowshaivi-4.jpg" alt="Girl posing besides the house in and blue and white tee dress" width="200"></img>
             </div>
-            <div class="min-container about">
+            <div class="min-container-flex about">
                 <img src="images/knowshaivi-3.jpg" alt="Girl posing in front of a huge true on a sunny day in Ann Arbor" width="200"></img>
             </div>
-            <div class="min-container">
+            <div class="min-container-flex">
                 <p>
                     I did my undergrad in Computer Engineering where I learnt various tools, applications, internal systems, coding and important CS concepts.
                     But something that always fascinated me more was the design and the reason why that code is being written.
@@ -70,9 +70,42 @@
                 </p>
             </div>
         </div>
+
+        <h1>Checkout some of my Creative Pieces</h1>
+		<hr>
+
+        <div class="artwork">
+            <img src="images/art-1.jpg" alt="Innovation in Technology" width="200">
+            <img src="images/art-3.jpg" alt="Love of mother towards her children" width="200">
+            <img src="images/art-4.jpg" alt="Love is seamless" width="200">
+            <img src="images/art-2.jpg" alt="A girl blended in fire and ice" width="200">
+        </div>
     </main>
     <!-- FOOTER STARTS -->
     <footer>
+        <form action="https://formspree.io/f/mdobdrng" method="POST">
+			<fieldset>
+			  <legend>Let's Talk</legend>
+		  
+			  <label for="name_id">Your Name</label>
+			  <i class="fa-solid fa-user"></i>
+			  <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
+		  
+			  <label for="email_id">Your Email</label>
+			  <i class="fa-solid fa-envelope"></i>
+			  <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+		  
+			  <label for="phone_id">Your Phone Number</label>
+			  <i class="fa-solid fa-phone-flip"></i>
+			  <input type="tel" id="phone_id" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+		  
+			  <label for="msg_id">Leave A Message</label>
+			  <i class="fa-solid fa-message"></i>
+			  <textarea placeholder="Enter your message" id = "msg_id" name="msg" required></textarea><br>
+
+			  <input type="submit" value = "Contact Me">
+			</fieldset>
+		   </form>
 		<p>Shaivi Ajay Ganatra &copy; 2022</p>
 	</footer>
     <!-- FOOTER ENDS -->
